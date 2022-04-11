@@ -1,0 +1,504 @@
+.hr1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif  ;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+}
+.hr2{
+    font-size: 60px;
+    font-weight: 0px;
+    color: rgb(167, 166, 166);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+    position: absolute;
+    top: 141px;
+    left: 525px;
+}
+.material-icons{
+    color: rgb(246, 78, 78);
+    cursor: pointer;
+    position: absolute;
+    left: 970px;
+    top: 160px;
+    font-size: 45px;
+}
+.hr3{
+    font-size: 30px;
+    font-weight: 0px;
+    color: rgb(167, 166, 166);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+    position: absolute;
+    top: 160px;
+    left: 1030px;
+}
+
+.cards-container{
+
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    height: 500px;
+    position: relative;
+    top: 300px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+.item1{
+    height: 270px;
+    width: 180px;
+    border: 2px solid red;
+    /* position: absolute;
+    top: 100px; */
+    /* left: 360px; */
+    display: flex;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 30px;
+    color: red;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgb(192, 190, 190);
+}
+.item2{
+    height: 270px;
+    width: 180px;
+    border: 2px solid red;
+    /* position: absolute;
+    top: 100px; */
+    /* left: 650px; */
+    border-radius: 10px;
+    display: inline-block;
+    padding: 30px;
+    color: red;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgb(192, 190, 190);
+}
+.item3{
+    height: 270px;
+    width: 180px;
+    border: 2px solid red;
+    /* position: absolute;
+    top: 100px; */
+    /* left: 950px; */
+    border-radius: 10px;
+    display: inline-block;
+    padding: 30px;
+    color: red;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgb(192, 190, 190);
+}
+.item4{
+    height: 270px;
+    width: 180px;
+    border: 2px solid red;
+    /* position: absolute;
+    top: 100px; */
+    /* left: 950px; */
+    border-radius: 10px;
+    display: inline-block;
+    padding: 30px;
+    color: red;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgb(192, 190, 190);
+}
+.hd1{
+    color: gray;
+    width: 200px;
+    position: absolute;
+    left: 110px;
+}
+strike{
+    font-size: 24px;
+    position: absolute;
+    left: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: red;
+    font-weight: 500;
+    
+}
+.pr1{
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+    position: absolute;
+    top:40px;
+    left: 550px;
+}
+.ph1{
+     color: black;
+     position: absolute;
+     left: 280px;
+     width: 250px;
+     top: 85px;
+}
+.ph2{
+    color: black;
+    position: absolute;
+    left: 970px;
+    width: 250px;
+    top: 85px;
+}
+.pw1{
+    
+        font-size: 35px;
+        font-weight: 400;
+        color: rgb(167, 166, 166);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+        position: absolute;
+        top: 197px;
+        left: 740px;
+    
+}
+.pb1{
+    width: 350px;
+    height: 320px;
+    border: 2px solid red;
+    border-radius: 10px;
+    position: absolute;
+    top: 300px;
+    left: 540px;
+    box-shadow: 5px 5px 15px rgb(192, 190, 190);
+    padding: 40px;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+.pd1{
+    color: black;
+    width: 90%;
+    position: absolute;
+    top: 70px;
+    left: 45px;
+
+}
+/* .popup{
+    background-color: white;
+    z-index: 3;
+    border: 2px solid red;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 300px;
+    transition: all 5s ease-in-out;
+    visibility: hidden;
+} */
+/* #openpopup{
+    background-color: white;
+    z-index: 3;
+    border: 2px solid red;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 300px;
+    transition: all 5s ease-in-out;
+    visibility: visible;
+
+} */
+
+.button {
+    /* font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none; */
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .button1 {
+    /* font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none; */
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(214, 211, 211, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible; 
+    opacity: 10;
+    /* filter: blur(16px); */
+    /* height: 1000px; */
+  }
+  
+  .popup {
+    background: #fff;
+        border: 2px solid red;
+        border-radius: 10px;
+        color: red;
+        position: relative;
+        width: 400px;
+        height: 200px;
+        top: 250px;
+        transition: all 1s;  
+        left: 550px; 
+        text-align: center;
+        font-size: 25px;
+        padding: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* z-index: 2; */
+    
+  }
+  .popup2{
+        background: #fff;
+            border: 2px solid red;
+            border-radius: 10px;
+            color: red;
+            position: relative;
+            width: 400px;
+            height: 200px;
+            top: 250px;
+            transition: all 1s ;  
+            left: 550px; 
+            text-align: center;
+            font-size: 25px;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* z-index: 2; */
+        
+      }
+  
+  
+
+  .box{
+    text-decoration: none; 
+    background-color: red; 
+    border: 2px solid red;
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    left: 170px;
+
+  }
+  .box1{
+        text-decoration: none; 
+        background-color: red; 
+        border: 2px solid red;
+        width: 100px;
+        height: 40px;
+        color: white;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 25px;
+        position: absolute;
+        left: 170px;
+    
+      }
+  
+.back{
+    visibility: hidden;
+    position: absolute;
+}
+  
+
+  @media screen and (min-width: 100px) and (max-width: 1000px) {
+  .cards-container {
+  
+    position: relative;
+    left:0px;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .item1{
+      position: relative;
+      right: 10px;
+      height: 10px;
+      width: 90%;
+      bottom: 300px;
+      color: gray;
+
+  }
+  .item2{
+    position: relative;
+    right: 10px;
+    bottom: 380px;
+    height: 10px;
+    width: 90%;
+    text-align: center;
+    color: gray;
+  }
+  .item3{
+    position: relative;
+    right: 10px;
+    height: 10px;
+    width: 90%;
+    bottom: 380px;
+    text-align: center;
+    color: gray;
+  }
+  .item4{
+    position: relative;
+    right: 10px;
+    bottom: 370px;
+    height: 10px;
+    width: 90%;
+    text-align: center;
+    color: gray;
+  }
+  .button{
+      position: relative;
+      right: 720px;
+      bottom: 160px;
+  }
+.hr1{
+    position: relative;
+    left: 10px;
+    top: 20px;
+    font-size: 40px;
+}
+.hr2{
+    position: relative;
+    left: 10px;
+    top: 20px;
+    font-size: 40px;
+}
+.popup{
+    position: absolute;
+    left: 100px;
+    height: 200px;
+    width: 50%;
+    
+
+}
+input{
+    width: 250px;
+}
+strike{
+    visibility: hidden;
+}
+.pt{
+    visibility: hidden;
+}
+hr{
+    visibility: hidden;
+}
+.box{
+    position: relative;
+    left: 35%;
+    width: 30%;
+}
+.tb{
+    position: relative;
+    width: 90%;
+    left: 2%;
+}
+.sb{
+    visibility: hidden;
+}
+.box1{
+    position: relative;
+    left: 35%;
+    width: 30%;
+}
+.hr3{
+    visibility: hidden;
+}
+
+/* .str2{
+    
+    position: relative;
+    right: 10000px;
+    bottom: 250px;
+} */
+.button1{
+    position: relative;
+    right: 60px;
+    bottom: 140px;
+}
+
+.popup2
+{
+    position: absolute;
+    left: 120px;
+    height: 200px;
+    width: 50%;
+
+}
+.pb1{
+
+    position: absolute;
+    left: 100px;
+    width: 60%;
+    height: 30%;
+    top: 180px;
+
+}
+.pr1{
+    position: absolute;
+    left:60px;
+    font-size: 37px;
+}
+.back{
+    visibility: visible;
+    position: relative;
+    bottom: 165px;
+    right: 675px;
+}
+.pt1{
+    position: relative;
+    right: 10px;
+    top: 10px;
+    visibility: hidden;
+}
+.cb{
+    visibility: hidden;
+}
+.pw1{
+    visibility: hidden;
+}
+.ph2{
+    visibility: hidden;
+}
+.ac{
+    visibility: hidden;
+}
+/* .pt1{
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+    visibility: hidden;
+}
+
+.sb{
+    visibility: hidden;
+} 
+}
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
+
+  /* .pt1{
+    position: relative;
+    right: 100px;
+    top: 400px;
+    visibility: hidden;
+} */
+  }
